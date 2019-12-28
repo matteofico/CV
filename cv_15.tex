@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.8\columnwidth]{matteofico.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Matteo Fico \\ % Your name
+\url{ficomatteo@gmail.com} \\ % Your email address
+\url{linkedin.com/in/matteofico} \\ % Your URL
++39 338 5801268 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+Via E.Fermi 51 \\ % Address 1
+41124, Modena \\ % Address 2
+Italy \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Matteo Fico} % Large heading - your name
+
+\cvsubheading{Software Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me}{
+	I'm an hardworking and ambitious person who likes to organize his work and optimize it day after day. 
+	
+	My focus has always been doing my job the best way possible and also take care of communication, especially when you're part of a team.
+						
+	I think of myself as a thoughtful and logical person and I'd like to improve my communication and management skills.	
+	   }
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{July 2013, Unimore, \textit{Università di Modena e Reggio Emilia}}{Bachelor Degree in  Computer Engineering}
+
+%------------------------------------------------
+
+\CVItem{June 2005, ITC Barozzi, \textit{Technical high school}}{Diploma in accounting,business and programming}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{Nov 2016 - present, \textit{R\&D Computer Vision Tech}, Unisorting}{
+\begin{itemize}
+	\item Work on the field:
+	\begin{itemize}
+		\item Collecting data on the field (images, settings, customer preferences, ...)
+		\item Training customer's techs
+		\item Tuning computer vision software and hardware
+		\item Helping salesmen with demos
+		\item Machine supervisory
+	\end{itemize}
+	\item Office work:
+	\begin{itemize}
+		\item Tuning software on clients purposes
+		\item Tech support on computer vision machine issues
+		\item Data Analysis and feasibility study on collected data
+		\begin{itemize}
+			\item Data analysis with Python and Excel
+		\end{itemize}
+	\end{itemize}
+		\item Software development:
+		\begin{itemize} 
+		\item C\# side project for data collection 
+		\item Python side project for data analysis
+		\end{itemize}
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{Aug 2013 - Nov 2016, \textit{Software Developer}, Datagraph S.r.l.}{Main developer on public accounting softwares:
+\begin{itemize}
+	\item Analysis, development and software management
+	\item MS SQL Server maintenance
+	\item Customers support and help
+\end{itemize}}
+
+\CVItem{Sep 2012 - Aug 2013, \textit{Software technician}, Spin S.r.l.}{ 
+\begin{itemize}
+	\item Graduation thesis|"Interfacciamento di un sistema di pesatura ed etichettatura"
+	\item HMI for Supervisory Control and Data Acquisition.
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	IT SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{IT Skills}
+
+%------------------------------------------------
+
+\CVItem{Programming}
+{C\#, Python, C++}
+
+%------------------------------------------------
+
+\CVItem{DBMS}
+{MS SQL, MySQL}
+
+%------------------------------------------------
+
+\CVItem{Web}
+{HTML, CSS}
+
+%------------------------------------------------
+
+\CVItem{Source Control}
+{Mercurial, GIT, SVN}
+
+%------------------------------------------------
+
+\CVItem{OS}
+{Windows, Mac Os X, Unix/Linux}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+\CVSection{Personal Skills}
+
+\CVItem{Problem-solving and decision-making}{Both improved working on the field}
+
+\CVItem{Team-work}{Enhanced working on complex projects}
+
+\CVItem{Adaptability}{Observation and willingness to learn help me adapting}
+
+\CVItem{Punctuality}{Being punctual shows your respect for others}
+
+\CVItem{Creativity}{Creative approach to problem solving}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+\CVSection{Languages}
+
+%------------------------------------------------
+
+\CVItem{Italian}{Native} 
+
+\CVItem{English}{Professional working}
+
+\CVItem{Spanish}{Professional working}
+
+\CVItem{French}{Elementary}
+
+\Sep
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Professional}{Data Analysis, Software Management, UX/UI, Machine Learning}
+
+\CVItem{Personal}{Photography, travel, music, cooking, hiking}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
+
+
