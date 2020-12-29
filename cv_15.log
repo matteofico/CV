@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.31)  15 NOV 2020 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.31)  27 NOV 2020 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1510,23 +1510,18 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 62.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 70.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 88.
+(Font)              scaled to size 12.0pt on input line 81.
 LaTeX Font Info:    Try loading font information for TS1+XCharter-TLF on input 
-line 127.
+line 125.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 File: TS1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for TS1/XCharte
 r-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
-
-Overfull \hbox (1.65614pt too wide) in paragraph at lines 127--127
-[]\T1/XCharter-TLF/m/n/12 Install and set up com-puter vi-sion soft-ware and ha
-rd-
- []
+(Font)              scaled to size 12.0pt on input line 125.
 
 [1
 
@@ -1542,7 +1537,7 @@ Package pdftex.def Info: matteofico.jpg  used on input line 152.
 Here is how much of TeX's memory you used:
  19334 strings out of 492616
  349333 string characters out of 6129481
- 453303 words of memory out of 5000000
+ 453307 words of memory out of 5000000
  22891 multiletter control sequences out of 15000+600000
  69727 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1556,7 +1551,7 @@ Bold.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/xcharter/XChart
 er-BoldItalic.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/xchart
 er/XCharter-Roman.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm
 -super/sftt1095.pfb>
-Output written on cv_15.pdf (2 pages, 249732 bytes).
+Output written on cv_15.pdf (2 pages, 249642 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
